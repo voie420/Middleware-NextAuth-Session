@@ -1,7 +1,8 @@
 <h1>Middleware NextAuth Session</h1>
 
 <h3>Description</h3>
-<p>This project can be used to check permissions/session before the `App Router` has compiled the requested page.</p>
+This middleware can be used to check permissions/session before the `App Router` has compiled the requested page.
+This middleware is not an example of a NextAuth-Middleware. This is a plain middleware that creates a custom request where you can retrieve session data.
 
 <h3>Layout</h3>
 Depending on your Project's layout you want to place the `middleware.ts` file in the same directory as the parent of the root /tsx/jsx... file.<br><br>
