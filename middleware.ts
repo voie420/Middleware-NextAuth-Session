@@ -5,7 +5,10 @@ import { getSession } from 'next-auth/react';
 import { IncomingHttpHeaders } from 'http';
 
 // Define an interface for a custom incoming message with headers and optional body.
-interface CustomIncomingMessage { headers: IncomingHttpHeaders; body?: any; }
+interface CustomIncomingMessage {
+    headers: IncomingHttpHeaders;
+    body?: any;
+}
 
 // Define a middleware function that takes a Next.js request as input.
 export async function middleware(request: NextRequest) {
